@@ -6,68 +6,90 @@
 </head>
 <body>
 
-  <header>
-    <h1>Ashwini Balasubramanian</h1>
-    <p>Data Analyst | Aspiring Data Scientist | Python • SQL • BI • ML</p>
-    <a href="resume.pdf">Download Resume</a>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tag">DATA SCIENCE • ANALYTICS • BI</p>
+      <h1>Ashwini Balasubramanian</h1>
+      <p class="subtitle">
+        Data Analyst and aspiring Data Scientist turning complex data into insights,
+        dashboards, and machine learning solutions.
+      </p>
+      <div class="buttons">
+        <a href="resume.pdf" class="btn primary">Download Resume</a>
+        <a href="#projects" class="btn secondary">View Projects</a>
+      </div>
+    </div>
   </header>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="card">
     <h2>About Me</h2>
     <p>
-      I am a data professional with experience in analytics, dashboards, machine learning,
-      SQL, Python, and cloud data platforms. I enjoy turning messy data into meaningful
-      insights and building tools that support better decision-making.
+      I am a data professional with experience in analytics, dashboards, SQL,
+      Python, machine learning, and cloud data platforms. I enjoy transforming
+      messy data into meaningful insights and building tools that help teams make
+      better decisions.
     </p>
   </section>
 
-  <section>
+  <section id="skills" class="card">
     <h2>Skills</h2>
-    <p><strong>Programming:</strong> Python, SQL, R</p>
-    <p><strong>BI Tools:</strong> Tableau, Power BI, QuickSight</p>
-    <p><strong>Cloud/Data:</strong> Snowflake, AWS S3, Redshift, Athena</p>
-    <p><strong>ML/Data Science:</strong> Regression, NLP, Sentiment Analysis, Model Evaluation</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Airline Sentiment Analysis Dashboard</h3>
-      <p>Built an interactive dashboard to analyze airline customer sentiment using tweet data.</p>
-      <p><strong>Tools:</strong> Python, Streamlit, Pandas, Plotly, NLP</p>
-    </div>
-
-    <div class="project">
-      <h3>Smart AI Study Planner</h3>
-      <p>Created an AI-powered study planner that generates schedules and tracks student tasks.</p>
-      <p><strong>Tools:</strong> Python, Streamlit, SQLite/Supabase, OpenAI API</p>
-    </div>
-
-    <div class="project">
-      <h3>Budget Planning AI Agent</h3>
-      <p>Developed a budgeting assistant that analyzes expenses and gives financial insights.</p>
-      <p><strong>Tools:</strong> Python, Streamlit, Supabase, Pandas</p>
-    </div>
-
-    <div class="project">
-      <h3>Healthcare Data Migration Case Study</h3>
-      <p>Analyzed provider data migration concepts from Teradata to Snowflake, including validation and reconciliation.</p>
-      <p><strong>Tools:</strong> SQL, Snowflake, Teradata, Data Warehousing</p>
+    <div class="skills-grid">
+      <div><h3>Programming</h3><p>Python, SQL, R</p></div>
+      <div><h3>BI Tools</h3><p>Tableau, Power BI, QuickSight</p></div>
+      <div><h3>Cloud & Data</h3><p>Snowflake, AWS S3, Redshift, Athena</p></div>
+      <div><h3>Machine Learning</h3><p>Regression, NLP, Sentiment Analysis, Model Evaluation</p></div>
     </div>
   </section>
 
-  <section>
+  <section id="projects" class="card">
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+      <div class="project">
+        <h3>Airline Sentiment Analysis Dashboard</h3>
+        <p>Interactive dashboard analyzing airline customer sentiment from tweet data.</p>
+        <span>Python</span><span>Streamlit</span><span>NLP</span><span>Plotly</span>
+      </div>
+
+      <div class="project">
+        <h3>Smart AI Study Planner</h3>
+        <p>AI-powered planner that generates study schedules and tracks student tasks.</p>
+        <span>Python</span><span>OpenAI API</span><span>Supabase</span>
+      </div>
+
+      <div class="project">
+        <h3>Budget Planning AI Agent</h3>
+        <p>Expense analysis tool that categorizes transactions and gives budget insights.</p>
+        <span>Python</span><span>Pandas</span><span>Streamlit</span>
+      </div>
+
+      <div class="project">
+        <h3>Healthcare Data Migration Case Study</h3>
+        <p>Provider data migration analysis from Teradata to Snowflake with validation logic.</p>
+        <span>SQL</span><span>Snowflake</span><span>Data Warehousing</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="card">
     <h2>Experience</h2>
     <p>
-      Data analytics professional with experience creating dashboards, writing SQL queries,
-      building reporting workflows, analyzing business metrics, and supporting data-driven decisions.
+      Data analytics professional experienced in SQL reporting, dashboard creation,
+      KPI analysis, ETL workflows, data validation, and business intelligence.
     </p>
   </section>
 
-  <section>
+  <section id="contact" class="card contact">
     <h2>Contact</h2>
-    <p>Email: ashbala155@gmail.com</p>
+    <p>Email: <a href="mailto:ashbala155@gmail.com">ashbala155@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/ashbala155">github.com/ashbala155</a></p>
     <p>LinkedIn: Add your LinkedIn URL here</p>
   </section>
